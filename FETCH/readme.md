@@ -20,20 +20,20 @@ You will have to make a number of decisions as you develop this solution:
 
 - What metric do you use to assign a numerical value to the similarity?
 
-**I decided to use mathematics to come up with a metric that could make sense. There is an extended number of research in this area. Different approaches exists that try to come up with ways to measure the similarity between two texts. Some of those are:**
+**I decided to use math to come up with a metric that could make sense. There is a lot of research in this area. Different approaches exist that try to come up with ways to measure the similarity between two texts. Some of those are:**
 
 1. [Hamming distance](http://en.wikipedia.org/wiki/Hamming_distance)
 2. [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance)
 3. [Damerau–Levenshtein distance](http://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
 4. [Jaro–Winkler distance](http://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance)
 
-**Some of these methods, as well as many others, have their own libraries created. You indicated below that only standard libraries could be used. For that reason, I am defining a function in Python while only using the _numpy_ library in Python.**
+**Some of these methods and others have their own software libraries. Instructions below stated that only standard libraries could be used. For that reason, I am defining a function in Python while only using the _numpy_ library in Python.**
 
-**Two identical texts will have a value of 1, two completely different texts will have a value of 0. Text with similarities will have a ratio of a number between 0 and 1. As an example, for text sample 1 and sample 2 my code provides a value of 0.8753541076487252. For text sample 1 and sample 3 the value is 0.4681404421326398. For sample 2 and 3 this value is 0.4589308996088657. We can easily convert those to percentage (%) if desired.**
+**Two identical texts will have a value of 1, two completely different texts will have a value of 0. Texts with similarities will have a ratio of a number between 0 and 1. For example, for text sample 1 and sample 2 my code provides a value of 0.8753541076487252. For text sample 1 and sample 3 the value is 0.4681404421326398. For sample 2 and 3 this value is 0.4589308996088657. We can easily convert those to percentage (%) if desired. This means that samples 1 and 2 are more similar than 1 and 3 or 2 and 3.**
 
 - What type of data structures should be used?  (Hint: Dictionaries and lists are particularly helpful data structures that can be leveraged to calculate the similarity of two pieces of text.)
 
-**I am using a matrix and vectors in memory to calculate the number of deletions, additions and substitutions needed to make two texts the same. Please see the Levenshtein distance link above to see the mathematical model.**
+**I am using a matrix and vectors in memory to calculate the number of deletions, additions and substitutions needed to make two texts the same. Please see the Levenshtein distance link above to review the underlying mathematical model.**
 
 **INSTRUCTIONS TO RUN THE CODE**
 
