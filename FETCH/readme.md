@@ -16,7 +16,7 @@ You will have to make a number of decisions as you develop this solution:
 
 - Do you care about the ordering of words?
 
-**Yes, I am caring about the order of words because of the same reason, similarity in text but not necessarily in meaning.**
+**Yes, I care about the order of words because of the same reason, similarity in text but not necessarily in meaning.**
 
 - What metric do you use to assign a numerical value to the similarity?
 
