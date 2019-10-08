@@ -35,6 +35,10 @@ You will have to make a number of decisions as you develop this solution:
 
 **I am using a matrix and vectors in memory to calculate the number of deletions, additions and substitutions needed to make two texts the same. Please see the Levenshtein distance link above to see the mathematical model.**
 
+**INSTRUCTIONS TO RUN THE CODE**
+
+**Challenge solution has been prepared using a Jupyter Notebook in an Anaconda environment. In order to see the code and run it please open the following Jupyter Notebook (FetchRewards_Challenge.iypnb).
+
 Requirements:
 
 - The document similarity algorithm does not need to perform well, and you don&#39;t need to account for all edge cases.   **Focus on having some fun with it and producing code that we can discuss together.**
