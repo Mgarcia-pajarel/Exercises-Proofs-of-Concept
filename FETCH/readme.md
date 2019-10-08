@@ -20,7 +20,7 @@ You will have to make a number of decisions as you develop this solution:
 
 - What metric do you use to assign a numerical value to the similarity?
 
-**I decide to use Mathematics to come up with a metric that could make sense. There is an extended number of research in this area. Different approaches exists that try to come up with ways to measure the similarity between two texts. Some of those are:**
+**I decided to use mathematics to come up with a metric that could make sense. There is an extended number of research in this area. Different approaches exists that try to come up with ways to measure the similarity between two texts. Some of those are:**
 
 1. [Hamming distance](http://en.wikipedia.org/wiki/Hamming_distance)
 2. [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance)
