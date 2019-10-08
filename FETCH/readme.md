@@ -29,7 +29,7 @@ You will have to make a number of decisions as you develop this solution:
 
 **Some of these methods, as well as many others, have their own libraries created. You indicated below that only standard libraries could be used. For that reason, I am defining a function in Python while only using the _numpy_ library in Python.**
 
-** Two identical texts will have a value of 1, two completely different texts will have a value of 0. Text with similarities will have a ratio of a number between 0 and 1. As an example, for text sample 1 and sample 2 my code provides a value of 0.8753541076487252. For text sample 1 and sample 3 the value is 0.4681404421326398. For sample 2 and 3 this value is 0.4589308996088657. We can easily convert those to percentage (%) if desired.**
+**Two identical texts will have a value of 1, two completely different texts will have a value of 0. Text with similarities will have a ratio of a number between 0 and 1. As an example, for text sample 1 and sample 2 my code provides a value of 0.8753541076487252. For text sample 1 and sample 3 the value is 0.4681404421326398. For sample 2 and 3 this value is 0.4589308996088657. We can easily convert those to percentage (%) if desired.**
 
 - What type of data structures should be used?  (Hint: Dictionaries and lists are particularly helpful data structures that can be leveraged to calculate the similarity of two pieces of text.)
 
