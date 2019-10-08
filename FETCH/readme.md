@@ -6,34 +6,34 @@ You will have to make a number of decisions as you develop this solution:
 
 - Do you count punctuation or only words?
 
-**he instructions do not specify if "similarity" refers to words themselves or the meaning of the words. In other words, two texts with no words in common could mean pretty much the same thing.
+**The instructions do not specify if "similarity" refers to words themselves or the meaning of the words. In other words, two texts with no words in common could mean pretty much the same thing.**
 
-**For the purpose of this challenge I am counting words and punctuation. In addition, I am converting  all text to the same case (lower) to minimize the impact of punctuation as well as same words not matching due to difference in lower vs upper case.
+**For the purpose of this challenge I am counting words and punctuation. In addition, I am converting  all text to the same case (lower) to minimize the impact of punctuation as well as same words not matching due to difference in lower vs upper case.**
 
 - Which words should matter in the similarity comparison?
 
-**I am comparing all words since I am not looking for meaning but similarity.
+**I am comparing all words since I am not looking for meaning but similarity.**
 
 - Do you care about the ordering of words?
 
-**Yes, I am caring about the order of words because of the same reason, similarity in text but not necessarily in meaning.
+**Yes, I am caring about the order of words because of the same reason, similarity in text but not necessarily in meaning.**
 
 - What metric do you use to assign a numerical value to the similarity?
 
-**I decide to use Mathematics to come up with a metric that could make sense. There is an extended number of research in this area. Different approaches exists that try to come up with ways to measure the similarity between two texts. Some of those are:
+**I decide to use Mathematics to come up with a metric that could make sense. There is an extended number of research in this area. Different approaches exists that try to come up with ways to measure the similarity between two texts. Some of those are:**
 
 1. [Hamming distance](http://en.wikipedia.org/wiki/Hamming_distance)
 2. [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance)
 3. [Damerau–Levenshtein distance](http://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
 4. [Jaro–Winkler distance](http://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance)
 
-**Some of these methods, as well as many others, have their own libraries created. You indicated below that only standard libraries could be used. For that reason, I am defining a function in Python while only using the _numpy_ library in Python.
+**Some of these methods, as well as many others, have their own libraries created. You indicated below that only standard libraries could be used. For that reason, I am defining a function in Python while only using the _numpy_ library in Python.**
 
-**Two identical texts will have a value of 1, two completely different texts will have a value of 0. Text with similarities will have a ratio of a number between 0 and 1. As an example, for text sample 1 and sample 2 my code provides a value of 0.8753541076487252. For text sample 1 and sample 3 the value is 0.4681404421326398. For sample 2 and 3 this value is 0.4589308996088657. We can easily convert those to percentage (%) if desired.
+** Two identical texts will have a value of 1, two completely different texts will have a value of 0. Text with similarities will have a ratio of a number between 0 and 1. As an example, for text sample 1 and sample 2 my code provides a value of 0.8753541076487252. For text sample 1 and sample 3 the value is 0.4681404421326398. For sample 2 and 3 this value is 0.4589308996088657. We can easily convert those to percentage (%) if desired.**
 
 - What type of data structures should be used?  (Hint: Dictionaries and lists are particularly helpful data structures that can be leveraged to calculate the similarity of two pieces of text.)
 
-**I am using a matrix and vectors in memory to calculate the number of deletions, additions and substitutions needed to make two texts the same. Please see the Levenshtein distance link above to see the mathematical model.
+**I am using a matrix and vectors in memory to calculate the number of deletions, additions and substitutions needed to make two texts the same. Please see the Levenshtein distance link above to see the mathematical model.**
 
 Requirements:
 
