@@ -37,7 +37,7 @@ You will have to make a number of decisions as you develop this solution:
 
 **INSTRUCTIONS TO RUN THE CODE**
 
-**Challenge solution has been prepared using a Jupyter Notebook in an Anaconda environment. In order to see the code and run it please open the following Jupyter Notebook (FetchRewards_Challenge.iypnb).
+**Challenge solution has been prepared using a Jupyter Notebook in an Anaconda environment. In order to see the code and run it please open the following Jupyter Notebook (FetchRewards_Challenge.ipynb) in your Ananconda environment. The attached three text (.txt) files contain the sample texts provided. As indicated in the instructions I am loading those from files.**
 
 Requirements:
 
