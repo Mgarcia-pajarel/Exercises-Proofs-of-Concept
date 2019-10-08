@@ -6,9 +6,9 @@ You will have to make a number of decisions as you develop this solution:
 
 - Do you count punctuation or only words?
 
-The instructions do not specify if &quot;similarity&quot; refers to words themselves or the meaning of the words. In other words, two texts with no words in common could mean pretty much the same thing.
+_The instructions do not specify if "similarity" refers to words themselves or the meaning of the words. In other words, two texts with no words in common could mean pretty much the same thing.
 
-For the purpose of this challenge I am counting words and punctuation. In addition, I am converting  all text to the same case (lower) to minimize the impact of punctuation as well as same words not matching due to difference in lower vs upper case.
+_For the purpose of this challenge I am counting words and punctuation. In addition, I am converting  all text to the same case (lower) to minimize the impact of punctuation as well as same words not matching due to difference in lower vs upper case.
 
 - Which words should matter in the similarity comparison?
 
